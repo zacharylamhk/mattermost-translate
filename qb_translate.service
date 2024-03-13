@@ -1,0 +1,9 @@
+[Unit]
+Description=QB Translate service
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /opt/qb_translate/qb_translate.py
+[Install]
+WantedBy=multi-user.target
