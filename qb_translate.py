@@ -9,8 +9,8 @@ from deep_translator import GoogleTranslator
 team="secondteam"
 
 mm = Driver({
-    'url': 'mattermost.quebico.com',
-    "token":"8tqjou18cpgpjd8iuu7tfjui4r",
+    'url': 'XXX.com',
+    "token":"XXXr",
     'scheme': 'https',
     'port': 443
     })
